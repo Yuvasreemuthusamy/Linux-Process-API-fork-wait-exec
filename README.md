@@ -45,7 +45,7 @@ int main(void)
 	return 0; }
 ```
 ## OUTPUT
-
+```
 $ ./pidcheck.o 
 The process id: 6919
 The process id of parent function: 6860
@@ -55,7 +55,7 @@ $ ps
     6860 pts/0    00:00:00 bash
     6924 pts/0    00:00:00 ps
 
-
+```
 ## C Program to create new process using Linux API system calls fork() and exit()
 ```
 #include <stdio.h>
@@ -75,10 +75,12 @@ exit(0);}
 ```
 
 ## OUTPUT
+```
 $ ./forkcheck.o 
 I am parent, my pid is 7029
 Iam child my pid is 7030
 My parent pid is:7029
+```
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```
@@ -106,10 +108,10 @@ printf("Running ps with execlp. Now with path specified\n");
         exit(0);}
 ```
 ## OUTPUT
-
+```
 $ ./execcheck2.o 
 Running ps with execlp
 child exited with status of 0
-
-# RESULT:
+```
+## RESULT:
 The programs are executed successfully.
