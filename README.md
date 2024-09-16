@@ -47,19 +47,13 @@ int main(void)
 ## OUTPUT
 
 $ ./pidcheck.o 
-
 The process id: 6919
-
 The process id of parent function: 6860
 
-
 $ ps 
-   
     PID TTY          TIME CMD
-   
-   6860 pts/0    00:00:00 bash
-   
-   6924 pts/0    00:00:00 ps
+    6860 pts/0    00:00:00 bash
+    6924 pts/0    00:00:00 ps
 
 
 ## C Program to create new process using Linux API system calls fork() and exit()
